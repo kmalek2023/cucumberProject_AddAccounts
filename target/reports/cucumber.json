@@ -1,0 +1,1356 @@
+[
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-02-23T15:32:45.377Z",
+        "before": [
+          {
+            "result": {
+              "duration": 1223106800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.LoginStepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "1- List Accounts link is clicked successfully",
+        "description": "",
+        "id": "dashboard-page-load-validation;1--list-accounts-link-is-clicked-successfully;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 250398500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.LoginStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9291227000,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User is on the Codefios login page",
+            "match": {
+              "location": "steps.LoginStepDefinition.UserIsOnTheCodefiosLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3096112100,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters username as \"demo@codefios.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"demo@codefios.com\"",
+                  "offset": 24
+                }
+              ],
+              "location": "steps.LoginStepDefinition.UserEnterTheUserName(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3088490400,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User enters the password \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc123\"",
+                  "offset": 25
+                }
+              ],
+              "location": "steps.LoginStepDefinition.user_enter_the_password(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13859430900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User clicks on sign in button",
+            "match": {
+              "location": "steps.LoginStepDefinition.user_click_on_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3067857800,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User should be able to land dashBoard page",
+            "match": {
+              "location": "steps.DashboardStepDefinition.user_should_be_able_to_land_dashBoard_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@dashboardFeature"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@dashboardPageValidation"
+          }
+        ]
+      }
+    ],
+    "name": "Dashboard page load validation",
+    "description": "",
+    "id": "dashboard-page-load-validation",
+    "keyword": "Feature",
+    "uri": "classpath:features/Dashboard.feature",
+    "tags": [
+      {
+        "name": "@dashboardFeature",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 19
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-02-23T15:33:19.301Z",
+        "before": [
+          {
+            "result": {
+              "duration": 881984700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.LoginStepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 24,
+        "name": "1 - User is able to create a new Account",
+        "description": "",
+        "id": "list-account-page-functionality-validation;1---user-is-able-to-create-a-new-account;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 201161000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.LoginStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9178490700,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on the Codefios login page",
+            "match": {
+              "location": "steps.LoginStepDefinition.UserIsOnTheCodefiosLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3106023200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters username as \"demo@codefios.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"demo@codefios.com\"",
+                  "offset": 24
+                }
+              ],
+              "location": "steps.LoginStepDefinition.UserEnterTheUserName(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3090772200,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters the password \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc123\"",
+                  "offset": 25
+                }
+              ],
+              "location": "steps.LoginStepDefinition.user_enter_the_password(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13922374300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on sign in button",
+            "match": {
+              "location": "steps.LoginStepDefinition.user_click_on_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3041949900,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should be able to land dashBoard page",
+            "match": {
+              "location": "steps.DashboardStepDefinition.user_should_be_able_to_land_dashBoard_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 1691828100,
+              "status": "passed"
+            },
+            "line": 11,
+            "name": "User clicks on List Account",
+            "match": {
+              "location": "steps.DashboardStepDefinition.user_clicks_on_List_Customer()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 25676800,
+              "status": "passed"
+            },
+            "line": 12,
+            "name": "User should be able to land New Account page",
+            "match": {
+              "location": "steps.ListAccountsDefinition.user_should_be_able_to_land_New_Account_page()"
+            },
+            "keyword": "Then "
+          },
+          {
+            "result": {
+              "duration": 56513300,
+              "status": "passed"
+            },
+            "line": 13,
+            "name": "User clicks on Add Account",
+            "match": {
+              "location": "steps.ListAccountsDefinition.user_clicks_on_Add_Account()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 302184700,
+              "status": "passed"
+            },
+            "line": 14,
+            "name": "User enters \"Saving\" in the Account Name field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"Saving\"",
+                  "offset": 12
+                }
+              ],
+              "location": "steps.ListAccountsDefinition.user_enters_in_the_Account_Name_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 63513000,
+              "status": "passed"
+            },
+            "line": 15,
+            "name": "User enters \"KM Description\" in the Description field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"KM Description\"",
+                  "offset": 12
+                }
+              ],
+              "location": "steps.ListAccountsDefinition.user_enters_in_the_Description_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 65774000,
+              "status": "passed"
+            },
+            "line": 16,
+            "name": "User enters \"25000\" in the Initial Balance field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"25000\"",
+                  "offset": 12
+                }
+              ],
+              "location": "steps.ListAccountsDefinition.user_enters_in_the_Initial_Balance_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 60427300,
+              "status": "passed"
+            },
+            "line": 17,
+            "name": "User enters \"5588\" in the A/C Numbers field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"5588\"",
+                  "offset": 12
+                }
+              ],
+              "location": "steps.ListAccountsDefinition.user_enters_in_the_A_C_Numbers_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 62551000,
+              "status": "passed"
+            },
+            "line": 18,
+            "name": "User enters \"KM_contact_person\" in the Contact Person field",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"KM_contact_person\"",
+                  "offset": 12
+                }
+              ],
+              "location": "steps.ListAccountsDefinition.user_enters_in_the_field(java.lang.String)"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 58616100,
+              "status": "passed"
+            },
+            "line": 19,
+            "name": "User clicks on Save",
+            "match": {
+              "location": "steps.ListAccountsDefinition.user_clicks_on()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 822391400,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User validates account created successfully",
+            "match": {
+              "location": "steps.ListAccountsDefinition.user_should_be_able_to_validate_account_created_successfully()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@listAccountFeature"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@addAccountScenario1"
+          }
+        ]
+      }
+    ],
+    "name": "List Account Page functionality validation",
+    "description": "",
+    "id": "list-account-page-functionality-validation",
+    "keyword": "Feature",
+    "uri": "classpath:features/ListAccounts.feature",
+    "tags": [
+      {
+        "name": "@listAccountFeature",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 21
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-02-23T15:33:55.964Z",
+        "before": [
+          {
+            "result": {
+              "duration": 860518800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.LoginStepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "1- User should be able to login with valid credential",
+        "description": "",
+        "id": "codefios-login-page-functionality-validation;1--user-should-be-able-to-login-with-valid-credential;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 219780800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.LoginStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4195746900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on the Codefios login page",
+            "match": {
+              "location": "steps.LoginStepDefinition.UserIsOnTheCodefiosLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3084308200,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters username as \"demo@codefios.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"demo@codefios.com\"",
+                  "offset": 24
+                }
+              ],
+              "location": "steps.LoginStepDefinition.UserEnterTheUserName(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3093127000,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters the password \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc123\"",
+                  "offset": 25
+                }
+              ],
+              "location": "steps.LoginStepDefinition.user_enter_the_password(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13852349100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on sign in button",
+            "match": {
+              "location": "steps.LoginStepDefinition.user_click_on_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3037760200,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should be able to land dashBoard page",
+            "match": {
+              "location": "steps.DashboardStepDefinition.user_should_be_able_to_land_dashBoard_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@codefiosLogin"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@codefiosLoginScenario1"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Codefios Login page functionality validation",
+    "description": "",
+    "id": "codefios-login-page-functionality-validation",
+    "keyword": "Feature",
+    "uri": "classpath:features/Login.feature",
+    "tags": [
+      {
+        "name": "@codefiosLogin",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 16
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "start_timestamp": "2024-02-23T15:34:24.326Z",
+        "before": [
+          {
+            "result": {
+              "duration": 913534500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.LoginStepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 14,
+        "name": "1 - User should not be able to login with invalid credentials",
+        "description": "",
+        "id": "codefios-login-page-negative-functionality-validation;1---user-should-not-be-able-to-login-with-invalid-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 163758600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.LoginStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9208070900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on the Codefios login page",
+            "match": {
+              "location": "steps.LoginStepDefinition.UserIsOnTheCodefiosLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3102536700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters username as \"demo1@codefios.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"demo1@codefios.com\"",
+                  "offset": 24
+                }
+              ],
+              "location": "steps.LoginStepDefinition.UserEnterTheUserName(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3092983500,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters the password \"abc123\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc123\"",
+                  "offset": 25
+                }
+              ],
+              "location": "steps.LoginStepDefinition.user_enter_the_password(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7763098200,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on sign in button",
+            "match": {
+              "location": "steps.LoginStepDefinition.user_click_on_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9000100,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should remain on Login page",
+            "match": {
+              "location": "steps.LoginStepDefinition.User_should_remain_on_Login_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@codefiosNegativeFeature"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@LoginNegativeScenario1"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-02-23T15:34:48.603Z",
+        "before": [
+          {
+            "result": {
+              "duration": 905491900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.LoginStepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 15,
+        "name": "1 - User should not be able to login with invalid credentials",
+        "description": "",
+        "id": "codefios-login-page-negative-functionality-validation;1---user-should-not-be-able-to-login-with-invalid-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 210256800,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.LoginStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4178536500,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on the Codefios login page",
+            "match": {
+              "location": "steps.LoginStepDefinition.UserIsOnTheCodefiosLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3106766700,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters username as \"demo@codefios.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"demo@codefios.com\"",
+                  "offset": 24
+                }
+              ],
+              "location": "steps.LoginStepDefinition.UserEnterTheUserName(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3096689800,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters the password \"abc124\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc124\"",
+                  "offset": 25
+                }
+              ],
+              "location": "steps.LoginStepDefinition.user_enter_the_password(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7708970300,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on sign in button",
+            "match": {
+              "location": "steps.LoginStepDefinition.user_click_on_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9030300,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should remain on Login page",
+            "match": {
+              "location": "steps.LoginStepDefinition.User_should_remain_on_Login_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@codefiosNegativeFeature"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@LoginNegativeScenario1"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-02-23T15:35:07.825Z",
+        "before": [
+          {
+            "result": {
+              "duration": 889557600,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.LoginStepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 16,
+        "name": "1 - User should not be able to login with invalid credentials",
+        "description": "",
+        "id": "codefios-login-page-negative-functionality-validation;1---user-should-not-be-able-to-login-with-invalid-credentials;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 181372500,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.LoginStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9309271900,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on the Codefios login page",
+            "match": {
+              "location": "steps.LoginStepDefinition.UserIsOnTheCodefiosLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3132164600,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters username as \"demo1@codefios.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"demo1@codefios.com\"",
+                  "offset": 24
+                }
+              ],
+              "location": "steps.LoginStepDefinition.UserEnterTheUserName(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3099633900,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters the password \"abc14\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc14\"",
+                  "offset": 25
+                }
+              ],
+              "location": "steps.LoginStepDefinition.user_enter_the_password(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 7733411100,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on sign in button",
+            "match": {
+              "location": "steps.LoginStepDefinition.user_click_on_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 11035600,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should remain on Login page",
+            "match": {
+              "location": "steps.LoginStepDefinition.User_should_remain_on_Login_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@codefiosNegativeFeature"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@LoginNegativeScenario1"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-02-23T15:35:32.189Z",
+        "before": [
+          {
+            "result": {
+              "duration": 870918400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.LoginStepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 29,
+        "name": "2 - User should not be able to login without credentials",
+        "description": "",
+        "id": "codefios-login-page-negative-functionality-validation;2---user-should-not-be-able-to-login-without-credentials;;2",
+        "after": [
+          {
+            "result": {
+              "duration": 205107300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.LoginStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4203795300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User is on the Codefios login page",
+            "match": {
+              "location": "steps.LoginStepDefinition.UserIsOnTheCodefiosLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3110829700,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User enters username as \"demo@codefios.com\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"demo@codefios.com\"",
+                  "offset": 24
+                }
+              ],
+              "location": "steps.LoginStepDefinition.UserEnterTheUserName(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3080977400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User enters the password \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 25
+                }
+              ],
+              "location": "steps.LoginStepDefinition.user_enter_the_password(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6083262300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User clicks on sign in button",
+            "match": {
+              "location": "steps.LoginStepDefinition.user_click_on_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 15198500,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User clicks OK on Alert",
+            "match": {
+              "location": "steps.LoginStepDefinition.user_clicks_OK_on_Alert()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 9994600,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User should remain on Login page",
+            "match": {
+              "location": "steps.LoginStepDefinition.User_should_remain_on_Login_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@codefiosNegativeFeature"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@LoginNegativeScenario2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-02-23T15:35:49.794Z",
+        "before": [
+          {
+            "result": {
+              "duration": 797263400,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.LoginStepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 30,
+        "name": "2 - User should not be able to login without credentials",
+        "description": "",
+        "id": "codefios-login-page-negative-functionality-validation;2---user-should-not-be-able-to-login-without-credentials;;3",
+        "after": [
+          {
+            "result": {
+              "duration": 225392700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.LoginStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 4197676200,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User is on the Codefios login page",
+            "match": {
+              "location": "steps.LoginStepDefinition.UserIsOnTheCodefiosLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3099346000,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User enters username as \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 24
+                }
+              ],
+              "location": "steps.LoginStepDefinition.UserEnterTheUserName(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3059199400,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User enters the password \"abc14\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"abc14\"",
+                  "offset": 25
+                }
+              ],
+              "location": "steps.LoginStepDefinition.user_enter_the_password(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6071040600,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User clicks on sign in button",
+            "match": {
+              "location": "steps.LoginStepDefinition.user_click_on_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 21016000,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User clicks OK on Alert",
+            "match": {
+              "location": "steps.LoginStepDefinition.user_clicks_OK_on_Alert()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 18290400,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User should remain on Login page",
+            "match": {
+              "location": "steps.LoginStepDefinition.User_should_remain_on_Login_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@codefiosNegativeFeature"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@LoginNegativeScenario2"
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-02-23T15:36:07.295Z",
+        "before": [
+          {
+            "result": {
+              "duration": 884864700,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.LoginStepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 31,
+        "name": "2 - User should not be able to login without credentials",
+        "description": "",
+        "id": "codefios-login-page-negative-functionality-validation;2---user-should-not-be-able-to-login-without-credentials;;4",
+        "after": [
+          {
+            "result": {
+              "duration": 279056900,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.LoginStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario Outline",
+        "steps": [
+          {
+            "result": {
+              "duration": 9169613300,
+              "status": "passed"
+            },
+            "line": 20,
+            "name": "User is on the Codefios login page",
+            "match": {
+              "location": "steps.LoginStepDefinition.UserIsOnTheCodefiosLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3085051400,
+              "status": "passed"
+            },
+            "line": 21,
+            "name": "User enters username as \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 24
+                }
+              ],
+              "location": "steps.LoginStepDefinition.UserEnterTheUserName(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3058928200,
+              "status": "passed"
+            },
+            "line": 22,
+            "name": "User enters the password \"\"",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"\"",
+                  "offset": 25
+                }
+              ],
+              "location": "steps.LoginStepDefinition.user_enter_the_password(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 6087698300,
+              "status": "passed"
+            },
+            "line": 23,
+            "name": "User clicks on sign in button",
+            "match": {
+              "location": "steps.LoginStepDefinition.user_click_on_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 20514700,
+              "status": "passed"
+            },
+            "line": 24,
+            "name": "User clicks OK on Alert",
+            "match": {
+              "location": "steps.LoginStepDefinition.user_clicks_OK_on_Alert()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 12486500,
+              "status": "passed"
+            },
+            "line": 25,
+            "name": "User should remain on Login page",
+            "match": {
+              "location": "steps.LoginStepDefinition.User_should_remain_on_Login_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@codefiosNegativeFeature"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@LoginNegativeScenario2"
+          }
+        ]
+      }
+    ],
+    "name": "Codefios Login page negative functionality validation",
+    "description": "",
+    "id": "codefios-login-page-negative-functionality-validation",
+    "keyword": "Feature",
+    "uri": "classpath:features/NegativeLogin.feature",
+    "tags": [
+      {
+        "name": "@codefiosNegativeFeature",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 26
+        }
+      }
+    ]
+  }
+]
