@@ -17,8 +17,8 @@ public class DashboardStepDefinition extends TestBase {
 		dashboardPage = PageFactory.initElements(driver, DashboardPage.class);
 		String actualTitle = "Dashboard";
 		String expectedTitle = dashboardPage.getDashboardText();
-		;
 		Assert.assertEquals("Dashboard page are not found", expectedTitle, actualTitle);
+		takeScreenshot(driver);
 		try {
 			Thread.sleep(3000);
 		} catch (Exception e) {

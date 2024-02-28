@@ -1,8 +1,11 @@
 @codefiosNegativeFeature @regression
 Feature: Codefios Login page negative functionality validation
-
-  @LoginNegativeScenario1 @smoke
-  Scenario Outline: 1 - User should not be able to login with invalid credentials
+	
+	Background:
+	Given User is on the Codefios login page
+	
+	@LoginNegativeScenario1 @smoke
+    Scenario Outline: 1 - User should not be able to login with invalid credentials
     Given User is on the Codefios login page
     When User enters username as "<username>"
     When User enters the password "<password>"
@@ -17,7 +20,6 @@ Feature: Codefios Login page negative functionality validation
 
 	@LoginNegativeScenario2 
   Scenario Outline: 2 - User should not be able to login without credentials
-    Given User is on the Codefios login page
     When User enters username as "<username>"
     When User enters the password "<password>"
     And User clicks on sign in button

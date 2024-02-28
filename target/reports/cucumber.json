@@ -3,11 +3,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2024-02-23T15:32:45.377Z",
+        "start_timestamp": "2024-02-27T23:46:42.338Z",
         "before": [
           {
             "result": {
-              "duration": 1223106800,
+              "duration": 1233289400,
               "status": "passed"
             },
             "match": {
@@ -22,7 +22,7 @@
         "after": [
           {
             "result": {
-              "duration": 250398500,
+              "duration": 205004500,
               "status": "passed"
             },
             "match": {
@@ -35,7 +35,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9291227000,
+              "duration": 11466009000,
               "status": "passed"
             },
             "line": 7,
@@ -47,7 +47,7 @@
           },
           {
             "result": {
-              "duration": 3096112100,
+              "duration": 3086985700,
               "status": "passed"
             },
             "line": 8,
@@ -65,7 +65,7 @@
           },
           {
             "result": {
-              "duration": 3088490400,
+              "duration": 3088433800,
               "status": "passed"
             },
             "line": 9,
@@ -83,7 +83,7 @@
           },
           {
             "result": {
-              "duration": 13859430900,
+              "duration": 13918889900,
               "status": "passed"
             },
             "line": 10,
@@ -95,7 +95,7 @@
           },
           {
             "result": {
-              "duration": 3067857800,
+              "duration": 3315972500,
               "status": "passed"
             },
             "line": 11,
@@ -115,6 +115,9 @@
           },
           {
             "name": "@dashboardPageValidation"
+          },
+          {
+            "name": "@smoke"
           }
         ]
       }
@@ -147,11 +150,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2024-02-23T15:33:19.301Z",
+        "start_timestamp": "2024-02-27T23:47:18.694Z",
         "before": [
           {
             "result": {
-              "duration": 881984700,
+              "duration": 944049800,
               "status": "passed"
             },
             "match": {
@@ -159,14 +162,14 @@
             }
           }
         ],
-        "line": 24,
+        "line": 25,
         "name": "1 - User is able to create a new Account",
         "description": "",
         "id": "list-account-page-functionality-validation;1---user-is-able-to-create-a-new-account;;2",
         "after": [
           {
             "result": {
-              "duration": 201161000,
+              "duration": 233691100,
               "status": "passed"
             },
             "match": {
@@ -179,7 +182,7 @@
         "steps": [
           {
             "result": {
-              "duration": 9178490700,
+              "duration": 6268813900,
               "status": "passed"
             },
             "line": 6,
@@ -191,7 +194,7 @@
           },
           {
             "result": {
-              "duration": 3106023200,
+              "duration": 3142950800,
               "status": "passed"
             },
             "line": 7,
@@ -209,7 +212,7 @@
           },
           {
             "result": {
-              "duration": 3090772200,
+              "duration": 3096368800,
               "status": "passed"
             },
             "line": 8,
@@ -227,7 +230,7 @@
           },
           {
             "result": {
-              "duration": 13922374300,
+              "duration": 13888200000,
               "status": "passed"
             },
             "line": 9,
@@ -239,7 +242,7 @@
           },
           {
             "result": {
-              "duration": 3041949900,
+              "duration": 3229142100,
               "status": "passed"
             },
             "line": 10,
@@ -251,7 +254,7 @@
           },
           {
             "result": {
-              "duration": 1691828100,
+              "duration": 4722135600,
               "status": "passed"
             },
             "line": 11,
@@ -263,31 +266,31 @@
           },
           {
             "result": {
-              "duration": 25676800,
+              "duration": 152389400,
               "status": "passed"
             },
             "line": 12,
             "name": "User should be able to land New Account page",
             "match": {
-              "location": "steps.ListAccountsDefinition.user_should_be_able_to_land_New_Account_page()"
+              "location": "steps.ListAccountsStepDefinition.user_should_be_able_to_land_New_Account_page()"
             },
             "keyword": "Then "
           },
           {
             "result": {
-              "duration": 56513300,
+              "duration": 49251300,
               "status": "passed"
             },
             "line": 13,
             "name": "User clicks on Add Account",
             "match": {
-              "location": "steps.ListAccountsDefinition.user_clicks_on_Add_Account()"
+              "location": "steps.ListAccountsStepDefinition.user_clicks_on_Add_Account()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 302184700,
+              "duration": 210557600,
               "status": "passed"
             },
             "line": 14,
@@ -299,13 +302,13 @@
                   "offset": 12
                 }
               ],
-              "location": "steps.ListAccountsDefinition.user_enters_in_the_Account_Name_field(java.lang.String)"
+              "location": "steps.ListAccountsStepDefinition.user_enters_in_the_Account_Name_field(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 63513000,
+              "duration": 80735000,
               "status": "passed"
             },
             "line": 15,
@@ -317,13 +320,13 @@
                   "offset": 12
                 }
               ],
-              "location": "steps.ListAccountsDefinition.user_enters_in_the_Description_field(java.lang.String)"
+              "location": "steps.ListAccountsStepDefinition.user_enters_in_the_Description_field(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 65774000,
+              "duration": 59838500,
               "status": "passed"
             },
             "line": 16,
@@ -335,13 +338,13 @@
                   "offset": 12
                 }
               ],
-              "location": "steps.ListAccountsDefinition.user_enters_in_the_Initial_Balance_field(java.lang.String)"
+              "location": "steps.ListAccountsStepDefinition.user_enters_in_the_Initial_Balance_field(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 60427300,
+              "duration": 57330000,
               "status": "passed"
             },
             "line": 17,
@@ -353,49 +356,49 @@
                   "offset": 12
                 }
               ],
-              "location": "steps.ListAccountsDefinition.user_enters_in_the_A_C_Numbers_field(java.lang.String)"
+              "location": "steps.ListAccountsStepDefinition.user_enters_in_the_A_C_Numbers_field(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 62551000,
+              "duration": 69405100,
               "status": "passed"
             },
             "line": 18,
-            "name": "User enters \"KM_contact_person\" in the Contact Person field",
+            "name": "User enters \"KM contact person\" in the Contact Person field",
             "match": {
               "arguments": [
                 {
-                  "val": "\"KM_contact_person\"",
+                  "val": "\"KM contact person\"",
                   "offset": 12
                 }
               ],
-              "location": "steps.ListAccountsDefinition.user_enters_in_the_field(java.lang.String)"
+              "location": "steps.ListAccountsStepDefinition.user_enters_in_the_field(java.lang.String)"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 58616100,
+              "duration": 38753500,
               "status": "passed"
             },
             "line": 19,
             "name": "User clicks on Save",
             "match": {
-              "location": "steps.ListAccountsDefinition.user_clicks_on()"
+              "location": "steps.ListAccountsStepDefinition.user_clicks_on()"
             },
             "keyword": "And "
           },
           {
             "result": {
-              "duration": 822391400,
+              "duration": 991997600,
               "status": "passed"
             },
             "line": 20,
             "name": "User validates account created successfully",
             "match": {
-              "location": "steps.ListAccountsDefinition.user_should_be_able_to_validate_account_created_successfully()"
+              "location": "steps.ListAccountsStepDefinition.user_should_be_able_to_validate_account_created_successfully()"
             },
             "keyword": "Then "
           }
@@ -441,11 +444,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2024-02-23T15:33:55.964Z",
+        "start_timestamp": "2024-02-27T23:47:55.947Z",
         "before": [
           {
             "result": {
-              "duration": 860518800,
+              "duration": 888730600,
               "status": "passed"
             },
             "match": {
@@ -460,7 +463,7 @@
         "after": [
           {
             "result": {
-              "duration": 219780800,
+              "duration": 204779400,
               "status": "passed"
             },
             "match": {
@@ -473,7 +476,7 @@
         "steps": [
           {
             "result": {
-              "duration": 4195746900,
+              "duration": 6478085300,
               "status": "passed"
             },
             "line": 6,
@@ -485,7 +488,7 @@
           },
           {
             "result": {
-              "duration": 3084308200,
+              "duration": 3140652100,
               "status": "passed"
             },
             "line": 7,
@@ -503,7 +506,7 @@
           },
           {
             "result": {
-              "duration": 3093127000,
+              "duration": 3111643500,
               "status": "passed"
             },
             "line": 8,
@@ -521,7 +524,7 @@
           },
           {
             "result": {
-              "duration": 13852349100,
+              "duration": 13878221700,
               "status": "passed"
             },
             "line": 9,
@@ -533,7 +536,7 @@
           },
           {
             "result": {
-              "duration": 3037760200,
+              "duration": 3208053000,
               "status": "passed"
             },
             "line": 10,
@@ -588,11 +591,11 @@
     "line": 2,
     "elements": [
       {
-        "start_timestamp": "2024-02-23T15:34:24.326Z",
+        "start_timestamp": "2024-02-27T23:48:26.871Z",
         "before": [
           {
             "result": {
-              "duration": 913534500,
+              "duration": 887150000,
               "status": "passed"
             },
             "match": {
@@ -600,14 +603,182 @@
             }
           }
         ],
-        "line": 14,
+        "line": 5,
+        "name": "1- User should be able to login with valid credential from DB",
+        "description": "",
+        "id": "codefios-login-page-functionality-validation-with-data-from-mysql-server;1--user-should-be-able-to-login-with-valid-credential-from-db",
+        "after": [
+          {
+            "result": {
+              "duration": 205435300,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.LoginStepDefinition.tearDown()"
+            }
+          }
+        ],
+        "type": "scenario",
+        "keyword": "Scenario",
+        "steps": [
+          {
+            "result": {
+              "duration": 6259453300,
+              "status": "passed"
+            },
+            "line": 6,
+            "name": "User is on the Codefios login page",
+            "match": {
+              "location": "steps.LoginStepDefinition.UserIsOnTheCodefiosLoginPage()"
+            },
+            "keyword": "Given "
+          },
+          {
+            "result": {
+              "duration": 3544442400,
+              "status": "passed"
+            },
+            "line": 7,
+            "name": "User enters \"username\" from MySQL database",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"username\"",
+                  "offset": 12
+                }
+              ],
+              "location": "steps.LoginStepDefinition.user_enters_from_MySQL_database(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 3368453300,
+              "status": "passed"
+            },
+            "line": 8,
+            "name": "User enters \"password\" from MySQL database",
+            "match": {
+              "arguments": [
+                {
+                  "val": "\"password\"",
+                  "offset": 12
+                }
+              ],
+              "location": "steps.LoginStepDefinition.user_enters_from_MySQL_database(java.lang.String)"
+            },
+            "keyword": "When "
+          },
+          {
+            "result": {
+              "duration": 13946307900,
+              "status": "passed"
+            },
+            "line": 9,
+            "name": "User clicks on sign in button",
+            "match": {
+              "location": "steps.LoginStepDefinition.user_click_on_sign_in_button()"
+            },
+            "keyword": "And "
+          },
+          {
+            "result": {
+              "duration": 3217713800,
+              "status": "passed"
+            },
+            "line": 10,
+            "name": "User should be able to land dashBoard page",
+            "match": {
+              "location": "steps.DashboardStepDefinition.user_should_be_able_to_land_dashBoard_page()"
+            },
+            "keyword": "Then "
+          }
+        ],
+        "tags": [
+          {
+            "name": "@codefiosLoginUsingDatabase"
+          },
+          {
+            "name": "@regression"
+          },
+          {
+            "name": "@codefiosLoginUsingDatabaseScenario1"
+          },
+          {
+            "name": "@smoke"
+          }
+        ]
+      }
+    ],
+    "name": "Codefios Login page functionality validation with data from MySQL server",
+    "description": "",
+    "id": "codefios-login-page-functionality-validation-with-data-from-mysql-server",
+    "keyword": "Feature",
+    "uri": "classpath:features/LoginDataFromDatabase.feature",
+    "tags": [
+      {
+        "name": "@codefiosLoginUsingDatabase",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 1
+        }
+      },
+      {
+        "name": "@regression",
+        "type": "Tag",
+        "location": {
+          "line": 1,
+          "column": 29
+        }
+      }
+    ]
+  },
+  {
+    "line": 2,
+    "elements": [
+      {
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6341521000,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the Codefios login page",
+            "match": {
+              "location": "steps.LoginStepDefinition.UserIsOnTheCodefiosLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-02-27T23:48:58.308Z",
+        "before": [
+          {
+            "result": {
+              "duration": 887114000,
+              "status": "passed"
+            },
+            "match": {
+              "location": "steps.LoginStepDefinition.setUp()"
+            }
+          }
+        ],
+        "line": 17,
         "name": "1 - User should not be able to login with invalid credentials",
         "description": "",
         "id": "codefios-login-page-negative-functionality-validation;1---user-should-not-be-able-to-login-with-invalid-credentials;;2",
         "after": [
           {
             "result": {
-              "duration": 163758600,
+              "duration": 237997300,
               "status": "passed"
             },
             "match": {
@@ -620,10 +791,10 @@
         "steps": [
           {
             "result": {
-              "duration": 9208070900,
+              "duration": 5820633600,
               "status": "passed"
             },
-            "line": 6,
+            "line": 9,
             "name": "User is on the Codefios login page",
             "match": {
               "location": "steps.LoginStepDefinition.UserIsOnTheCodefiosLoginPage()"
@@ -632,10 +803,10 @@
           },
           {
             "result": {
-              "duration": 3102536700,
+              "duration": 3144568200,
               "status": "passed"
             },
-            "line": 7,
+            "line": 10,
             "name": "User enters username as \"demo1@codefios.com\"",
             "match": {
               "arguments": [
@@ -650,10 +821,10 @@
           },
           {
             "result": {
-              "duration": 3092983500,
+              "duration": 3072303700,
               "status": "passed"
             },
-            "line": 8,
+            "line": 11,
             "name": "User enters the password \"abc123\"",
             "match": {
               "arguments": [
@@ -668,10 +839,10 @@
           },
           {
             "result": {
-              "duration": 7763098200,
+              "duration": 7721408300,
               "status": "passed"
             },
-            "line": 9,
+            "line": 12,
             "name": "User clicks on sign in button",
             "match": {
               "location": "steps.LoginStepDefinition.user_click_on_sign_in_button()"
@@ -680,10 +851,10 @@
           },
           {
             "result": {
-              "duration": 9000100,
+              "duration": 6526300,
               "status": "passed"
             },
-            "line": 10,
+            "line": 13,
             "name": "User should remain on Login page",
             "match": {
               "location": "steps.LoginStepDefinition.User_should_remain_on_Login_page()"
@@ -707,11 +878,32 @@
         ]
       },
       {
-        "start_timestamp": "2024-02-23T15:34:48.603Z",
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11247968500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the Codefios login page",
+            "match": {
+              "location": "steps.LoginStepDefinition.UserIsOnTheCodefiosLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-02-27T23:49:25.551Z",
         "before": [
           {
             "result": {
-              "duration": 905491900,
+              "duration": 910282100,
               "status": "passed"
             },
             "match": {
@@ -719,14 +911,14 @@
             }
           }
         ],
-        "line": 15,
+        "line": 18,
         "name": "1 - User should not be able to login with invalid credentials",
         "description": "",
         "id": "codefios-login-page-negative-functionality-validation;1---user-should-not-be-able-to-login-with-invalid-credentials;;3",
         "after": [
           {
             "result": {
-              "duration": 210256800,
+              "duration": 211635100,
               "status": "passed"
             },
             "match": {
@@ -739,10 +931,10 @@
         "steps": [
           {
             "result": {
-              "duration": 4178536500,
+              "duration": 5825588800,
               "status": "passed"
             },
-            "line": 6,
+            "line": 9,
             "name": "User is on the Codefios login page",
             "match": {
               "location": "steps.LoginStepDefinition.UserIsOnTheCodefiosLoginPage()"
@@ -751,10 +943,10 @@
           },
           {
             "result": {
-              "duration": 3106766700,
+              "duration": 3122378400,
               "status": "passed"
             },
-            "line": 7,
+            "line": 10,
             "name": "User enters username as \"demo@codefios.com\"",
             "match": {
               "arguments": [
@@ -769,10 +961,10 @@
           },
           {
             "result": {
-              "duration": 3096689800,
+              "duration": 3099069900,
               "status": "passed"
             },
-            "line": 8,
+            "line": 11,
             "name": "User enters the password \"abc124\"",
             "match": {
               "arguments": [
@@ -787,10 +979,10 @@
           },
           {
             "result": {
-              "duration": 7708970300,
+              "duration": 7725890600,
               "status": "passed"
             },
-            "line": 9,
+            "line": 12,
             "name": "User clicks on sign in button",
             "match": {
               "location": "steps.LoginStepDefinition.user_click_on_sign_in_button()"
@@ -799,10 +991,10 @@
           },
           {
             "result": {
-              "duration": 9030300,
+              "duration": 9028100,
               "status": "passed"
             },
-            "line": 10,
+            "line": 13,
             "name": "User should remain on Login page",
             "match": {
               "location": "steps.LoginStepDefinition.User_should_remain_on_Login_page()"
@@ -826,11 +1018,32 @@
         ]
       },
       {
-        "start_timestamp": "2024-02-23T15:35:07.825Z",
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6267810200,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the Codefios login page",
+            "match": {
+              "location": "steps.LoginStepDefinition.UserIsOnTheCodefiosLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-02-27T23:49:57.709Z",
         "before": [
           {
             "result": {
-              "duration": 889557600,
+              "duration": 889841200,
               "status": "passed"
             },
             "match": {
@@ -838,14 +1051,14 @@
             }
           }
         ],
-        "line": 16,
+        "line": 19,
         "name": "1 - User should not be able to login with invalid credentials",
         "description": "",
         "id": "codefios-login-page-negative-functionality-validation;1---user-should-not-be-able-to-login-with-invalid-credentials;;4",
         "after": [
           {
             "result": {
-              "duration": 181372500,
+              "duration": 162569600,
               "status": "passed"
             },
             "match": {
@@ -858,10 +1071,10 @@
         "steps": [
           {
             "result": {
-              "duration": 9309271900,
+              "duration": 5850044100,
               "status": "passed"
             },
-            "line": 6,
+            "line": 9,
             "name": "User is on the Codefios login page",
             "match": {
               "location": "steps.LoginStepDefinition.UserIsOnTheCodefiosLoginPage()"
@@ -870,10 +1083,10 @@
           },
           {
             "result": {
-              "duration": 3132164600,
+              "duration": 3119737800,
               "status": "passed"
             },
-            "line": 7,
+            "line": 10,
             "name": "User enters username as \"demo1@codefios.com\"",
             "match": {
               "arguments": [
@@ -888,10 +1101,10 @@
           },
           {
             "result": {
-              "duration": 3099633900,
+              "duration": 3095150700,
               "status": "passed"
             },
-            "line": 8,
+            "line": 11,
             "name": "User enters the password \"abc14\"",
             "match": {
               "arguments": [
@@ -906,10 +1119,10 @@
           },
           {
             "result": {
-              "duration": 7733411100,
+              "duration": 7739765800,
               "status": "passed"
             },
-            "line": 9,
+            "line": 12,
             "name": "User clicks on sign in button",
             "match": {
               "location": "steps.LoginStepDefinition.user_click_on_sign_in_button()"
@@ -918,10 +1131,10 @@
           },
           {
             "result": {
-              "duration": 11035600,
+              "duration": 9986500,
               "status": "passed"
             },
-            "line": 10,
+            "line": 13,
             "name": "User should remain on Login page",
             "match": {
               "location": "steps.LoginStepDefinition.User_should_remain_on_Login_page()"
@@ -945,11 +1158,32 @@
         ]
       },
       {
-        "start_timestamp": "2024-02-23T15:35:32.189Z",
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6199508500,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the Codefios login page",
+            "match": {
+              "location": "steps.LoginStepDefinition.UserIsOnTheCodefiosLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-02-27T23:50:24.848Z",
         "before": [
           {
             "result": {
-              "duration": 870918400,
+              "duration": 894836000,
               "status": "passed"
             },
             "match": {
@@ -957,14 +1191,14 @@
             }
           }
         ],
-        "line": 29,
+        "line": 31,
         "name": "2 - User should not be able to login without credentials",
         "description": "",
         "id": "codefios-login-page-negative-functionality-validation;2---user-should-not-be-able-to-login-without-credentials;;2",
         "after": [
           {
             "result": {
-              "duration": 205107300,
+              "duration": 201474600,
               "status": "passed"
             },
             "match": {
@@ -977,22 +1211,10 @@
         "steps": [
           {
             "result": {
-              "duration": 4203795300,
+              "duration": 3143656500,
               "status": "passed"
             },
-            "line": 20,
-            "name": "User is on the Codefios login page",
-            "match": {
-              "location": "steps.LoginStepDefinition.UserIsOnTheCodefiosLoginPage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 3110829700,
-              "status": "passed"
-            },
-            "line": 21,
+            "line": 23,
             "name": "User enters username as \"demo@codefios.com\"",
             "match": {
               "arguments": [
@@ -1007,10 +1229,10 @@
           },
           {
             "result": {
-              "duration": 3080977400,
+              "duration": 3105341100,
               "status": "passed"
             },
-            "line": 22,
+            "line": 24,
             "name": "User enters the password \"\"",
             "match": {
               "arguments": [
@@ -1025,10 +1247,10 @@
           },
           {
             "result": {
-              "duration": 6083262300,
+              "duration": 6092431400,
               "status": "passed"
             },
-            "line": 23,
+            "line": 25,
             "name": "User clicks on sign in button",
             "match": {
               "location": "steps.LoginStepDefinition.user_click_on_sign_in_button()"
@@ -1037,10 +1259,10 @@
           },
           {
             "result": {
-              "duration": 15198500,
+              "duration": 20875000,
               "status": "passed"
             },
-            "line": 24,
+            "line": 26,
             "name": "User clicks OK on Alert",
             "match": {
               "location": "steps.LoginStepDefinition.user_clicks_OK_on_Alert()"
@@ -1049,10 +1271,10 @@
           },
           {
             "result": {
-              "duration": 9994600,
+              "duration": 8070000,
               "status": "passed"
             },
-            "line": 25,
+            "line": 27,
             "name": "User should remain on Login page",
             "match": {
               "location": "steps.LoginStepDefinition.User_should_remain_on_Login_page()"
@@ -1073,11 +1295,32 @@
         ]
       },
       {
-        "start_timestamp": "2024-02-23T15:35:49.794Z",
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 6183937900,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the Codefios login page",
+            "match": {
+              "location": "steps.LoginStepDefinition.UserIsOnTheCodefiosLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-02-27T23:50:44.521Z",
         "before": [
           {
             "result": {
-              "duration": 797263400,
+              "duration": 859505900,
               "status": "passed"
             },
             "match": {
@@ -1085,14 +1328,14 @@
             }
           }
         ],
-        "line": 30,
+        "line": 32,
         "name": "2 - User should not be able to login without credentials",
         "description": "",
         "id": "codefios-login-page-negative-functionality-validation;2---user-should-not-be-able-to-login-without-credentials;;3",
         "after": [
           {
             "result": {
-              "duration": 225392700,
+              "duration": 231027000,
               "status": "passed"
             },
             "match": {
@@ -1105,22 +1348,10 @@
         "steps": [
           {
             "result": {
-              "duration": 4197676200,
+              "duration": 3150590800,
               "status": "passed"
             },
-            "line": 20,
-            "name": "User is on the Codefios login page",
-            "match": {
-              "location": "steps.LoginStepDefinition.UserIsOnTheCodefiosLoginPage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 3099346000,
-              "status": "passed"
-            },
-            "line": 21,
+            "line": 23,
             "name": "User enters username as \"\"",
             "match": {
               "arguments": [
@@ -1135,10 +1366,10 @@
           },
           {
             "result": {
-              "duration": 3059199400,
+              "duration": 3080441400,
               "status": "passed"
             },
-            "line": 22,
+            "line": 24,
             "name": "User enters the password \"abc14\"",
             "match": {
               "arguments": [
@@ -1153,10 +1384,10 @@
           },
           {
             "result": {
-              "duration": 6071040600,
+              "duration": 6092395100,
               "status": "passed"
             },
-            "line": 23,
+            "line": 25,
             "name": "User clicks on sign in button",
             "match": {
               "location": "steps.LoginStepDefinition.user_click_on_sign_in_button()"
@@ -1165,10 +1396,10 @@
           },
           {
             "result": {
-              "duration": 21016000,
+              "duration": 19894000,
               "status": "passed"
             },
-            "line": 24,
+            "line": 26,
             "name": "User clicks OK on Alert",
             "match": {
               "location": "steps.LoginStepDefinition.user_clicks_OK_on_Alert()"
@@ -1177,10 +1408,10 @@
           },
           {
             "result": {
-              "duration": 18290400,
+              "duration": 13155200,
               "status": "passed"
             },
-            "line": 25,
+            "line": 27,
             "name": "User should remain on Login page",
             "match": {
               "location": "steps.LoginStepDefinition.User_should_remain_on_Login_page()"
@@ -1201,11 +1432,32 @@
         ]
       },
       {
-        "start_timestamp": "2024-02-23T15:36:07.295Z",
+        "line": 4,
+        "name": "",
+        "description": "",
+        "type": "background",
+        "keyword": "Background",
+        "steps": [
+          {
+            "result": {
+              "duration": 11282436100,
+              "status": "passed"
+            },
+            "line": 5,
+            "name": "User is on the Codefios login page",
+            "match": {
+              "location": "steps.LoginStepDefinition.UserIsOnTheCodefiosLoginPage()"
+            },
+            "keyword": "Given "
+          }
+        ]
+      },
+      {
+        "start_timestamp": "2024-02-27T23:51:04.159Z",
         "before": [
           {
             "result": {
-              "duration": 884864700,
+              "duration": 950492500,
               "status": "passed"
             },
             "match": {
@@ -1213,14 +1465,14 @@
             }
           }
         ],
-        "line": 31,
+        "line": 33,
         "name": "2 - User should not be able to login without credentials",
         "description": "",
         "id": "codefios-login-page-negative-functionality-validation;2---user-should-not-be-able-to-login-without-credentials;;4",
         "after": [
           {
             "result": {
-              "duration": 279056900,
+              "duration": 227557000,
               "status": "passed"
             },
             "match": {
@@ -1233,22 +1485,10 @@
         "steps": [
           {
             "result": {
-              "duration": 9169613300,
+              "duration": 3068684400,
               "status": "passed"
             },
-            "line": 20,
-            "name": "User is on the Codefios login page",
-            "match": {
-              "location": "steps.LoginStepDefinition.UserIsOnTheCodefiosLoginPage()"
-            },
-            "keyword": "Given "
-          },
-          {
-            "result": {
-              "duration": 3085051400,
-              "status": "passed"
-            },
-            "line": 21,
+            "line": 23,
             "name": "User enters username as \"\"",
             "match": {
               "arguments": [
@@ -1263,10 +1503,10 @@
           },
           {
             "result": {
-              "duration": 3058928200,
+              "duration": 3068758500,
               "status": "passed"
             },
-            "line": 22,
+            "line": 24,
             "name": "User enters the password \"\"",
             "match": {
               "arguments": [
@@ -1281,10 +1521,10 @@
           },
           {
             "result": {
-              "duration": 6087698300,
+              "duration": 6116511400,
               "status": "passed"
             },
-            "line": 23,
+            "line": 25,
             "name": "User clicks on sign in button",
             "match": {
               "location": "steps.LoginStepDefinition.user_click_on_sign_in_button()"
@@ -1293,10 +1533,10 @@
           },
           {
             "result": {
-              "duration": 20514700,
+              "duration": 20362500,
               "status": "passed"
             },
-            "line": 24,
+            "line": 26,
             "name": "User clicks OK on Alert",
             "match": {
               "location": "steps.LoginStepDefinition.user_clicks_OK_on_Alert()"
@@ -1305,10 +1545,10 @@
           },
           {
             "result": {
-              "duration": 12486500,
+              "duration": 12368600,
               "status": "passed"
             },
-            "line": 25,
+            "line": 27,
             "name": "User should remain on Login page",
             "match": {
               "location": "steps.LoginStepDefinition.User_should_remain_on_Login_page()"

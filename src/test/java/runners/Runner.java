@@ -9,6 +9,7 @@ import io.cucumber.junit.CucumberOptions;
 @CucumberOptions(
 //		features = "src\\test\\resources\\features\\CodefiosLogin.feature",
 //		features = "src\\test\\resources\\features",
+//		features = "src\\test\\resources\\features\\Login.feature",
 		features = "classpath:features",
 
 		tags = "@regression",
