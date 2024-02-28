@@ -19,6 +19,11 @@ public class DashboardPage extends TestBase{
 
 	public void clickOnListAccount() {
 		LIST_ACCOUNT_ELEMENT.click();
+		try {
+			Thread.sleep(3000);
+		} catch (InterruptedException e) {
+			e.printStackTrace();
+		}
 	}
 	
 	public String getDashboardText(){

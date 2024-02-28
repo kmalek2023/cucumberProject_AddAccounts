@@ -18,7 +18,8 @@ Feature: List Account Page functionality validation
     And User enters "<contactPerson>" in the Contact Person field
     And User clicks on Save
     Then User validates account created successfully
+    
 
     Examples: 
       | username          | password | accountName | description    | InitialBalance | accountNumber | contactPerson     |
-      | demo@codefios.com | abc123   | Saving      | KM Description |          25000 |          5588 | KM_contact_person |
+      | demo@codefios.com | abc123   | Saving      | KM Description |          25000 |          5588 | KM contact person |

@@ -19,6 +19,9 @@ formatter.scenarioOutline({
   "tags": [
     {
       "name": "@dashboardPageValidation"
+    },
+    {
+      "name": "@smoke"
     }
   ]
 });
@@ -74,6 +77,9 @@ formatter.scenario({
     },
     {
       "name": "@dashboardPageValidation"
+    },
+    {
+      "name": "@smoke"
     }
   ]
 });
@@ -241,7 +247,7 @@ formatter.examples({
         "KM Description",
         "25000",
         "5588",
-        "KM_contact_person"
+        "KM contact person"
       ]
     }
   ]
@@ -330,7 +336,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "steps.ListAccountsDefinition.user_should_be_able_to_land_New_Account_page()"
+  "location": "steps.ListAccountsStepDefinition.user_should_be_able_to_land_New_Account_page()"
 });
 formatter.result({
   "status": "passed"
@@ -340,7 +346,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "steps.ListAccountsDefinition.user_clicks_on_Add_Account()"
+  "location": "steps.ListAccountsStepDefinition.user_clicks_on_Add_Account()"
 });
 formatter.result({
   "status": "passed"
@@ -350,7 +356,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "steps.ListAccountsDefinition.user_enters_in_the_Account_Name_field(java.lang.String)"
+  "location": "steps.ListAccountsStepDefinition.user_enters_in_the_Account_Name_field(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -360,7 +366,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "steps.ListAccountsDefinition.user_enters_in_the_Description_field(java.lang.String)"
+  "location": "steps.ListAccountsStepDefinition.user_enters_in_the_Description_field(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -370,7 +376,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "steps.ListAccountsDefinition.user_enters_in_the_Initial_Balance_field(java.lang.String)"
+  "location": "steps.ListAccountsStepDefinition.user_enters_in_the_Initial_Balance_field(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -380,17 +386,17 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "steps.ListAccountsDefinition.user_enters_in_the_A_C_Numbers_field(java.lang.String)"
+  "location": "steps.ListAccountsStepDefinition.user_enters_in_the_A_C_Numbers_field(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
 });
 formatter.step({
-  "name": "User enters \"KM_contact_person\" in the Contact Person field",
+  "name": "User enters \"KM contact person\" in the Contact Person field",
   "keyword": "And "
 });
 formatter.match({
-  "location": "steps.ListAccountsDefinition.user_enters_in_the_field(java.lang.String)"
+  "location": "steps.ListAccountsStepDefinition.user_enters_in_the_field(java.lang.String)"
 });
 formatter.result({
   "status": "passed"
@@ -400,7 +406,7 @@ formatter.step({
   "keyword": "And "
 });
 formatter.match({
-  "location": "steps.ListAccountsDefinition.user_clicks_on()"
+  "location": "steps.ListAccountsStepDefinition.user_clicks_on()"
 });
 formatter.result({
   "status": "passed"
@@ -410,7 +416,7 @@ formatter.step({
   "keyword": "Then "
 });
 formatter.match({
-  "location": "steps.ListAccountsDefinition.user_should_be_able_to_validate_account_created_successfully()"
+  "location": "steps.ListAccountsStepDefinition.user_should_be_able_to_validate_account_created_successfully()"
 });
 formatter.result({
   "status": "passed"
@@ -559,6 +565,95 @@ formatter.result({
 formatter.after({
   "status": "passed"
 });
+formatter.uri("classpath:features/LoginDataFromDatabase.feature");
+formatter.feature({
+  "name": "Codefios Login page functionality validation with data from MySQL server",
+  "description": "",
+  "keyword": "Feature",
+  "tags": [
+    {
+      "name": "@codefiosLoginUsingDatabase"
+    },
+    {
+      "name": "@regression"
+    }
+  ]
+});
+formatter.scenario({
+  "name": "1- User should be able to login with valid credential from DB",
+  "description": "",
+  "keyword": "Scenario",
+  "tags": [
+    {
+      "name": "@codefiosLoginUsingDatabase"
+    },
+    {
+      "name": "@regression"
+    },
+    {
+      "name": "@codefiosLoginUsingDatabaseScenario1"
+    },
+    {
+      "name": "@smoke"
+    }
+  ]
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User is on the Codefios login page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "steps.LoginStepDefinition.UserIsOnTheCodefiosLoginPage()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User enters \"username\" from MySQL database",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "steps.LoginStepDefinition.user_enters_from_MySQL_database(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User enters \"password\" from MySQL database",
+  "keyword": "When "
+});
+formatter.match({
+  "location": "steps.LoginStepDefinition.user_enters_from_MySQL_database(java.lang.String)"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User clicks on sign in button",
+  "keyword": "And "
+});
+formatter.match({
+  "location": "steps.LoginStepDefinition.user_click_on_sign_in_button()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User should be able to land dashBoard page",
+  "keyword": "Then "
+});
+formatter.match({
+  "location": "steps.DashboardStepDefinition.user_should_be_able_to_land_dashBoard_page()"
+});
+formatter.result({
+  "status": "passed"
+});
+formatter.after({
+  "status": "passed"
+});
 formatter.uri("classpath:features/NegativeLogin.feature");
 formatter.feature({
   "name": "Codefios Login page negative functionality validation",
@@ -637,6 +732,24 @@ formatter.examples({
     }
   ]
 });
+formatter.background({
+  "name": "",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User is on the Codefios login page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "steps.LoginStepDefinition.UserIsOnTheCodefiosLoginPage()"
+});
+formatter.result({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "1 - User should not be able to login with invalid credentials",
   "description": "",
@@ -655,9 +768,6 @@ formatter.scenario({
       "name": "@smoke"
     }
   ]
-});
-formatter.before({
-  "status": "passed"
 });
 formatter.step({
   "name": "User is on the Codefios login page",
@@ -712,6 +822,24 @@ formatter.result({
 formatter.after({
   "status": "passed"
 });
+formatter.background({
+  "name": "",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User is on the Codefios login page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "steps.LoginStepDefinition.UserIsOnTheCodefiosLoginPage()"
+});
+formatter.result({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "1 - User should not be able to login with invalid credentials",
   "description": "",
@@ -730,9 +858,6 @@ formatter.scenario({
       "name": "@smoke"
     }
   ]
-});
-formatter.before({
-  "status": "passed"
 });
 formatter.step({
   "name": "User is on the Codefios login page",
@@ -787,6 +912,24 @@ formatter.result({
 formatter.after({
   "status": "passed"
 });
+formatter.background({
+  "name": "",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User is on the Codefios login page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "steps.LoginStepDefinition.UserIsOnTheCodefiosLoginPage()"
+});
+formatter.result({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "1 - User should not be able to login with invalid credentials",
   "description": "",
@@ -805,9 +948,6 @@ formatter.scenario({
       "name": "@smoke"
     }
   ]
-});
-formatter.before({
-  "status": "passed"
 });
 formatter.step({
   "name": "User is on the Codefios login page",
@@ -873,10 +1013,6 @@ formatter.scenarioOutline({
   ]
 });
 formatter.step({
-  "name": "User is on the Codefios login page",
-  "keyword": "Given "
-});
-formatter.step({
   "name": "User enters username as \"\u003cusername\u003e\"",
   "keyword": "When "
 });
@@ -927,6 +1063,24 @@ formatter.examples({
     }
   ]
 });
+formatter.background({
+  "name": "",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User is on the Codefios login page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "steps.LoginStepDefinition.UserIsOnTheCodefiosLoginPage()"
+});
+formatter.result({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "2 - User should not be able to login without credentials",
   "description": "",
@@ -942,19 +1096,6 @@ formatter.scenario({
       "name": "@LoginNegativeScenario2"
     }
   ]
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User is on the Codefios login page",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "steps.LoginStepDefinition.UserIsOnTheCodefiosLoginPage()"
-});
-formatter.result({
-  "status": "passed"
 });
 formatter.step({
   "name": "User enters username as \"demo@codefios.com\"",
@@ -1009,6 +1150,24 @@ formatter.result({
 formatter.after({
   "status": "passed"
 });
+formatter.background({
+  "name": "",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User is on the Codefios login page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "steps.LoginStepDefinition.UserIsOnTheCodefiosLoginPage()"
+});
+formatter.result({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "2 - User should not be able to login without credentials",
   "description": "",
@@ -1024,19 +1183,6 @@ formatter.scenario({
       "name": "@LoginNegativeScenario2"
     }
   ]
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User is on the Codefios login page",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "steps.LoginStepDefinition.UserIsOnTheCodefiosLoginPage()"
-});
-formatter.result({
-  "status": "passed"
 });
 formatter.step({
   "name": "User enters username as \"\"",
@@ -1091,6 +1237,24 @@ formatter.result({
 formatter.after({
   "status": "passed"
 });
+formatter.background({
+  "name": "",
+  "description": "",
+  "keyword": "Background"
+});
+formatter.before({
+  "status": "passed"
+});
+formatter.step({
+  "name": "User is on the Codefios login page",
+  "keyword": "Given "
+});
+formatter.match({
+  "location": "steps.LoginStepDefinition.UserIsOnTheCodefiosLoginPage()"
+});
+formatter.result({
+  "status": "passed"
+});
 formatter.scenario({
   "name": "2 - User should not be able to login without credentials",
   "description": "",
@@ -1106,19 +1270,6 @@ formatter.scenario({
       "name": "@LoginNegativeScenario2"
     }
   ]
-});
-formatter.before({
-  "status": "passed"
-});
-formatter.step({
-  "name": "User is on the Codefios login page",
-  "keyword": "Given "
-});
-formatter.match({
-  "location": "steps.LoginStepDefinition.UserIsOnTheCodefiosLoginPage()"
-});
-formatter.result({
-  "status": "passed"
 });
 formatter.step({
   "name": "User enters username as \"\"",
