@@ -11,8 +11,6 @@ import java.util.Properties;
 import java.util.concurrent.TimeUnit;
 
 import org.apache.commons.io.FileUtils;
-import org.junit.Before;
-import org.junit.BeforeClass;
 import org.openqa.selenium.OutputType;
 import org.openqa.selenium.TakesScreenshot;
 import org.openqa.selenium.WebDriver;
@@ -35,7 +33,7 @@ public class TestBase_UsingConfigPropertiesFile {
 		this.url = url;
 	}
 
-	@Before
+
 	public void readConfig() {
 		try {
 			InputStream input = new FileInputStream("src\\main\\java\\config\\config.properties");

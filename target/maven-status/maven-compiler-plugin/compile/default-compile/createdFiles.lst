@@ -1,0 +1,7 @@
+pages\TestBase_UsingConfigPropertiesFile.class
+pages\LoginPage.class
+pages\DashboardPage.class
+pages\DatabasePage.class
+pages\ListAccountPage.class
+pages\DatabasePage2.class
+pages\TestBase.class
